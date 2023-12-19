@@ -189,14 +189,15 @@ export default function Home() {
   return (
     <div className="absolute w-full h-full left-0 top-0">
       <NavBar />
-      <Masonry className="flex gap-2 bg-white" columnClassName="" breakpointCols={3}>
+      <Masonry className="flex gap-2 bg-white" columnClassName="" breakpointCols={2}>
         {pictures.map((picturesImg, idx) => (
-          <div key={`${picturesImg.src}`} className="relative">
+          <div key={`${picturesImg.src}`} className="relative ">
             <Image
               src={picturesImg}
-              alt="992-4S"
-              className="static transition duration-150 hover:opacity-70 cursor-pointer my-2"
-              placeholder="blur"
+              alt="portfolio"
+              className="static my-2"
+              loading="lazy"
+              sizes="(max-width: 768px), 50vw, (max-width: 1200px) 30vw, 20vw"
             />
           </div>
         ))}

@@ -2,6 +2,9 @@
 import React, { useState, useEffect } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import { Popover, Transition } from '@headlessui/react';
+import Image from 'next/image';
+import logo1 from "../../public/KFlogo_paperbeigeontransparent@1x.svg"
+import logo2 from "../../public/KFlogo_papertealontransparent@1x.svg"
 
 const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,11 +39,20 @@ const NavBar = () => {
         }`}
     >
       <div>
-        <div className="object-contain mx-8 font-bold text-3xl h-15 w-40">Est 2023</div>
+        <div className="object-contain md:mx-8 mx-1 font-bold text-3xl h-15 w-40">
+          <a href="/">
+            {isScrolled ? (
+              <Image src={logo2} alt="Logo 2" />
+            ) : (
+              <Image src={logo1} alt="Logo 1" />
+            )}
+          </a>
+        </div>
       </div>
       <div className="hidden sm:flex space-x-4 mr-8 text-3xl font-light items-center">
-        <a href="portfolio">Portfolio</a>
-        <a href="contact">Contact</a>
+
+        <a href="portfolio" >Portfolio</a>
+        <a href="contact" >Contact</a>
       </div>
       <div className="absolute sm:hidden font-bold right-0 mx-8 z-10">
         <Popover.Button onClick={handlePanelToggle}>
@@ -51,7 +63,7 @@ const NavBar = () => {
           )}
         </Popover.Button>
       </div>
-      <Transition 
+      <Transition
         show={isPanelOpen}
         enter="transition-opacity duration-300"
         enterFrom="opacity-0"
@@ -60,11 +72,15 @@ const NavBar = () => {
         leaveFrom="opacity-100"
         leaveTo="opacity-0">
         <Popover.Panel className="fixed inset-x-0 top-0 h-screen bg-fukier-background">
-            <div className='flex flex-col items-center justify-center h-full text-fukier-text font-bold text-3xl space-y-8'>
-              <a href="/portfolio" className=''>Portfolio</a>
-              <h2>Contact</h2>
+          <div className='flex flex-col items-center justify-center h-full text-fukier-text font-bold text-3xl space-y-12'>
+            <a href="/">
+              <Image src={logo2} alt="Logo 2" className='w-28 absolute top-0 my-28' />
+            </a>
+            <div className='absolute top-1/3 flex flex-col'>
+              <a href="/portfolio" className='font-light'>Portfolio</a>
+              <a href="/contact" className='absolute my-36 font-light'>Contact</a>
             </div>
-
+          </div>
         </Popover.Panel>
       </Transition>
 
