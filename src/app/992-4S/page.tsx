@@ -21,11 +21,8 @@ const pictures = [
 ];
 
 export default function Home() {
-  const [isClient, setIsClient] = useState(false);
+  
 
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
 
   const isMobile = useMediaQuery({ maxWidth: 767 });
   const breakpointCols = isMobile ? 1 : 2;
@@ -33,7 +30,7 @@ export default function Home() {
   return (
     <div className="absolute w-full h-full left-0 top-0">
       <NavBar />
-      {isClient && (
+   
         <Masonry className="flex gap-2 bg-white" columnClassName="" breakpointCols={breakpointCols}>
           {pictures.map((picturesImg, idx) => (
             <div key={`${picturesImg.src}`} className="relative">
@@ -47,7 +44,7 @@ export default function Home() {
             </div>
           ))}
         </Masonry>
-      )}
+
     </div>
   );
 }

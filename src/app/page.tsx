@@ -1,10 +1,12 @@
 "use client"
 import Image from "next/image"
 import pic1 from "../../public/porsche_main.webp"
-import pic2 from "../../public/992-43-webp-glowna/na-glowna-992-4s.webp"
+import pic2 from "../../public/992-43-webp-glowna/DSC01011.webp"
 import pic3 from "../../public/taycan-webp-glowna/taycan-glowna.webp"
 
 import Link from 'next/link';
+
+// to propozycja DSC01011.webp
 
 import NavBar from "../components/NavBar"
 

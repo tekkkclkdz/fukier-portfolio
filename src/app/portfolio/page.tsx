@@ -188,6 +188,7 @@ export default function Home() {
 
   return (
     <div className="absolute w-full h-full left-0 top-0">
+      
       <NavBar />
       <Masonry className="flex gap-2 bg-white" columnClassName="" breakpointCols={2}>
         {pictures.map((picturesImg, idx) => (
