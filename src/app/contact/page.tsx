@@ -9,7 +9,7 @@ import logo2 from "../../../public/KFlogo_papertealontransparent@1x.svg"
 
 export default function Home() {
   return (
-    <div className="fixed inset-x-0 top-0 h-screen bg-fukier-background">
+    <div suppressHydrationWarning={true} className="fixed inset-x-0 top-0 h-screen bg-fukier-background">
       <div className='flex flex-col items-center justify-center h-full text-fukier-text font-bold text-3xl space-y-12'>
         <Image src={logo2}  alt="Logo 2" className='absolute top-0 my-28 md:w-80 w-28' />
         <div className='absolute top-1/3 flex flex-col'>

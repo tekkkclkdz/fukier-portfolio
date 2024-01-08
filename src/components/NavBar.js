@@ -34,8 +34,8 @@ const NavBar = () => {
 
 
   return (
-    <Popover
-      className={`flex justify-between z-10 h-32 items-center fixed top-0 left-0 w-screen ${isScrolled ? 'transition duration-300 text-fukier-text bg-fukier-background' : 'transition duration-300 bg-transparent text-fukier-background'
+    <Popover suppressHydrationWarning={true}
+      className={`flex justify-between z-30 h-32 items-center fixed top-0 left-0 w-screen ${isScrolled ? 'transition duration-300 text-fukier-text bg-fukier-background' : 'transition duration-300 bg-transparent text-fukier-background'
         }`}
     >
       <div>
@@ -55,7 +55,7 @@ const NavBar = () => {
         <a href="contact" >Contact</a>
       </div>
       <div className="absolute sm:hidden font-bold right-0 mx-8 z-10">
-        <Popover.Button onClick={handlePanelToggle}>
+        <Popover.Button onClick={handlePanelToggle} suppressHydrationWarning={true}>
           {isPanelOpen ? (
             <XMarkIcon className="h-6 w-6 text-black z-20" />
           ) : (
@@ -70,8 +70,9 @@ const NavBar = () => {
         enterTo="opacity-100"
         leave="transition-opacity duration-150"
         leaveFrom="opacity-100"
-        leaveTo="opacity-0">
-        <Popover.Panel className="fixed inset-x-0 top-0 h-screen bg-fukier-background">
+        leaveTo="opacity-0"
+        suppressHydrationWarning={true}>
+        <Popover.Panel className="fixed inset-x-0 top-0 h-screen bg-fukier-background" suppressHydrationWarning={true}>
           <div className='flex flex-col items-center justify-center h-full text-fukier-text font-bold text-3xl space-y-12'>
             <a href="/">
               <Image src={logo2} alt="Logo 2" className='w-28 absolute top-0 my-28' />
