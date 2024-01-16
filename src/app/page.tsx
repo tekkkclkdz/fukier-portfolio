@@ -151,13 +151,13 @@ export default function Home() {
         <div className="group relative w-full h-96">
           <Image src={pic15} alt="m1" className="static left-0 top-0 object-center w-full h-full object-cover z-[-1] transition-opacity duration-300 group-hover:opacity-30 cursor-pointer" />
           <h1 className="absolute opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-5xl text-2xl top-1/3 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
-          Concorso d'Eleganza Villa D'este
+          Concorso d`Eleganza Villa D`este
           </h1>
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for Motór Magazyn
           </h2>
           <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
-          Concorso d'Eleganza Villa D'este
+          Concorso d`Eleganza Villa D`este
           </h3>
         </div>
     </Link>
