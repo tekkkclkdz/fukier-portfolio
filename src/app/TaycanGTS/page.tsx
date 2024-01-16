@@ -32,9 +32,9 @@ export default function Home() {
 
   const lightboxRef = useRef<LightGallery | null>(null)
 
-  document.addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-  });
+  // document.addEventListener("contextmenu", function (e) {
+  //   e.preventDefault();
+  // });
 
   return (
     <div className="absolute w-full h-full left-0 top-0" suppressHydrationWarning={true}>

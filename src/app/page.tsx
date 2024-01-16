@@ -27,9 +27,9 @@ import NavBar from "../components/NavBar"
 
 export default function Home() {
 
-  document.addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-  });
+  // document.addEventListener("contextmenu", function (e) {
+  //   e.preventDefault();
+  // });
 
   return (
     <div suppressHydrationWarning={true} >

@@ -34,9 +34,9 @@ export default function Home() {
 
   const breakpointCols = isMobile ? 1 : 2;
 
-  document.addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-  });
+  // document.addEventListener("contextmenu", function (e) {
+  //   e.preventDefault();
+  // });
   
   const lightboxRef = useRef<LightGallery | null>(null)
 
