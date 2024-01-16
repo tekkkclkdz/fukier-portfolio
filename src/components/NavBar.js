@@ -74,9 +74,11 @@ const NavBar = () => {
         suppressHydrationWarning={true}>
         <Popover.Panel className="fixed inset-x-0 top-0 h-screen bg-fukier-background" suppressHydrationWarning={true}>
           <div className='flex flex-col items-center justify-center h-full text-fukier-text font-bold text-3xl space-y-12'>
-            <a href="/">
-              <Image src={logo2} alt="Logo 2" className='w-28 absolute top-0 my-28' />
-            </a>
+            <div className='flex items-center justify-center h-full text-fukier-text font-bold text-3xl space-y-12'>
+              <a href="/" className='absolute top-0 my-28'>
+                <Image src={logo2} alt="Logo 2" className='w-28' />
+              </a>
+            </div>
             <div className='absolute top-1/3 flex flex-col'>
               <a href="/portfolio" className='font-light'>Portfolio</a>
               <a href="/contact" className='absolute my-36 font-light'>Contact</a>
