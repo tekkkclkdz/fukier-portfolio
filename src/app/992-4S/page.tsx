@@ -49,7 +49,7 @@ export default function Home() {
                   key={pics.src}
                   src={pics}
                   alt="placeholder"
-                  className="static transition duration-150 hover:opacity-70 cursor-pointer my-2 "
+                  className="static transition duration-150 hover:opacity-75 cursor-pointer my-2 "
                   placeholder="blur" 
                   onClick={() => {
                   lightboxRef.current?.openGallery(idx);
