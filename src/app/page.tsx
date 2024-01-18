@@ -48,7 +48,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for Rolls Royce Deutschland
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
             Rolls Royce Phantom
           </h3>
         </div>
@@ -63,7 +63,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for Porsche Centrum Katowice
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
             Porsche 992 4S
           </h3>
         </div>
@@ -78,7 +78,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for Pagani Of Warsaw
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
             Pagani Codalunga
           </h3>
         </div>
@@ -93,7 +93,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for Alpine Katowice
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
             Alpine
           </h3>
         </div>
@@ -109,7 +109,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for Richter Motors
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
           Porsche 996 Turbo | Porsche 993 4S
           </h3>
         </div>
@@ -125,7 +125,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for Private Client
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
             M4 CSL
           </h3>
         </div>
@@ -141,7 +141,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for Porsche Centrum Katowice
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
             Porsche Road Tour
           </h3>
         </div>
@@ -156,7 +156,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for Motór Magazyn
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
           Concorso d`Eleganza Villa D`este
           </h3>
         </div>
@@ -171,7 +171,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for BMW Sikora
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
           BMW 7 Series Individual
           </h3>
         </div>
@@ -186,7 +186,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for One Way Club 2023
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
           Road Trip
           </h3>
         </div>
@@ -201,7 +201,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for BMW Sikora
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
             BMW M5 Competition
           </h3>
         </div>
@@ -216,7 +216,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for LaSquadra
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
             Ferrari Esperienza
           </h3>
         </div>
@@ -232,7 +232,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for Porsche Club Poland
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
           Road Trip
           </h3>
         </div>
@@ -248,7 +248,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for KTM Official
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
           KTM X-Bow GT-XR
           </h3>
         </div>
@@ -263,7 +263,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
           for One Way Club 2022
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
           Road Trip
           </h3>
         </div>
@@ -278,7 +278,7 @@ export default function Home() {
           <h2 className="absolute font-thin opacity-0 text-center group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl my-2 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
             for Porsche Centrum Katowice
           </h2>
-          <h3 className="absolute group-hover:opacity-0 bottom-0 font-light hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
+          <h3 className="absolute group-hover:opacity-0 bottom-0 font-thin hover:transition duration-300 my-8 mx-8 text-3xl text-fukier-background z-10">
             992 Sport Classic
           </h3>
         </div>
@@ -293,7 +293,7 @@ export default function Home() {
         <h2 className="absolute opacity-0 text-center font-thin group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl md:my-2 my-4 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
           for Porsche Centrum Katowice
         </h2>
-        <h3 className="absolute group-hover:opacity-0 bottom-0 hover:transition duration-300 my-8 font-light  mx-8 text-3xl text-fukier-background z-10">
+        <h3 className="absolute group-hover:opacity-0 font-thin bottom-0 hover:transition duration-300 my-8   mx-8 text-3xl text-fukier-background z-10">
           Taycan GTS Hockenheim Edition
         </h3>
       </div>
@@ -308,7 +308,7 @@ export default function Home() {
         <h2 className="absolute opacity-0 text-center font-thin group-hover:opacity-100 hover:transition-opacity duration-300 md:text-4xl md:my-2 my-4 text-2xl top-1/2 transform -translate-y-1/2 left-1/2 transform -translate-x-1/2 z-10">
           for LaSquadra
         </h2>
-        <h3 className="absolute group-hover:opacity-0 bottom-0 hover:transition duration-300 my-8 font-light  mx-8 text-3xl text-fukier-background z-10">
+        <h3 className="absolute group-hover:opacity-0 bottom-0 hover:transition duration-300 my-8 font-thin  mx-8 text-3xl text-fukier-background z-10">
           Track Day
         </h3>
       </div>
